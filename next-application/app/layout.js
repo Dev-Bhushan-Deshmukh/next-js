@@ -1,4 +1,7 @@
 
+import classes from './page.module.css'
+import Header from "@/components/header";
+
 
 export const metadata = {
   title: "Create Next App",
@@ -8,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body className={classes['main-container']} >
+      <Header/>
+
+        
+        {children}</body>
     </html>
   );
 }

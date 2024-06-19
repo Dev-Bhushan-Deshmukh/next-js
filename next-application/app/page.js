@@ -1,12 +1,21 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
-import Header from "@/components/header";
+import { ImageSlider } from "@/components/ImageSlider";
+import classes from './page.module.css'
 export default function Home() {
   return (
-  <div>home page
-<Header/>
+  <div className={classes['home-inner-container']}>
 
-<Link href='/about'>about</Link>
+    <div id={classes['photo-slider']}>
+    <ImageSlider/>
+
+    </div>
+    <div id={classes['slogan']}>
+<span>Explore India</span>
+<h3>Explore Fauna And Flaura of India</h3>
+    </div>
+
   </div>
   );
 }
