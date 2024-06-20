@@ -11,18 +11,36 @@
     width: 20%;
     background-color: rgb(195, 195, 195);
     border-radius: 0px;
+    background: rgba( 54, 54, 54, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .park-list{
-
+    background: rgba( 54, 54, 54, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
     height: 95%;
     width: 30%;
-    background-color: antiquewhite;
+    /* background-color: rgb(112, 112, 112); */
+    overflow-x: hidden;
 }
 .park-info{
- 
+    background: rgba( 54, 54, 54, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     
     height: 95%;
     width: 40%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 
 }
